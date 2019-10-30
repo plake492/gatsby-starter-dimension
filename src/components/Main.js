@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import friendFinder from '../images/friendFinder.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -64,23 +64,16 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <h3> Thunder Dome</h3>
+            <a
+              href="https://mighty-hollows-56287.herokuapp.com/"
+              target="blank"
+            >
+              <img src={friendFinder} alt="" />
+            </a>
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <a href="https://github.com/plake492/FriendFinder"> Github</a>
+
           {close}
         </article>
 
