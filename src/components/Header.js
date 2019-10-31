@@ -15,10 +15,10 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('about')
             }}
           >
-            Intro
+            About
           </a>
         </li>
         <li>
@@ -31,16 +31,7 @@ const Header = props => (
             Work
           </a>
         </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </a>
-        </li>
+
         <li>
           <a
             href="javascript:;"
