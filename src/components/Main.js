@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import roy from '../images/roy.png'
 import friendFinder from '../images/friendFinder.png'
+import clicky from '../images/clicky.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -30,18 +31,47 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <h3> Thunder Dome</h3>
-
+            <h3 style={{ textAlign: 'center' }}> Thunder Dome</h3>
             <img src={friendFinder} alt="" />
           </span>
-          <a href="https://mighty-hollows-56287.herokuapp.com/" target="blank">
+          <a
+            style={{ marginRight: '3%' }}
+            href="https://mighty-hollows-56287.herokuapp.com/"
+            target="blank"
+          >
             Website
           </a>
           <a href="https://github.com/plake492/FriendFinder"> Github</a>
+          <span className="image main">
+            <hr></hr>
+            <h3 style={{ textAlign: 'center' }}> Tiny House Roy</h3>
+            <img src={roy} alt="" />
+          </span>
+          <a
+            style={{ marginRight: '3%' }}
+            href="https://plake492.github.io/tiny-house-roy/"
+            target="blank"
+          >
+            Website
+          </a>
+          <a href="https://github.com/plake492/tiny-house-roy"> Github</a>
+          <hr></hr>
 
+          <span className="image main">
+            <h3 style={{ textAlign: 'center' }}>React Clicky Game</h3>
+
+            <img src={clicky} alt="" />
+          </span>
+          <a
+            style={{ marginRight: '3%' }}
+            href="https://plake492.github.io/clicky-game/"
+            target="blank"
+          >
+            Website
+          </a>
+          <a href="https://github.com/plake492/clicky-game"> Github</a>
           {close}
         </article>
-
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -64,7 +94,6 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
