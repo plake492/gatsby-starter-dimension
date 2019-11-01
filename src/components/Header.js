@@ -20,7 +20,7 @@ const Header = props => (
           >
             About
           </a>
-        </li>yarn
+        </li>
         <li>
           <a
             href="javascript:;"
