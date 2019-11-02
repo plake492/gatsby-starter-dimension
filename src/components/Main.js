@@ -3,7 +3,7 @@ import React from 'react'
 import roy from '../images/roy.png'
 import friendFinder from '../images/friendFinder.png'
 import clicky from '../images/clicky.png'
-import pic03 from '../images/pic03.jpg'
+import me from '../images/me.jpeg'
 
 class Main extends React.Component {
   render() {
@@ -81,16 +81,23 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={me} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Front End Web Developer coming from a background in music and
+            leadership as a former Worship Director. Certificate in Full Stack
+            Web Development from the University of Central Florida including new
+            skills in HTML, CSS, JavaScript, React.js and more, with an emphasis
+            in creating attractive, mobile and user friendly front-end UI’s.
+            Cares greatly about keeping workflow smooth, structured, and
+            efficient as shown by my collaboration with with two other coders
+            building a website to help connect community needs with willing
+            volunteers, where I took charge of the git process to keep the
+            team’s branches separate and conflict free while also tackling the
+            HTML, CSS, and front end JavaScript. Eager and excited to use and
+            grow my new skills as I aim to become a valuable and meaningful
+            member of this industry that so beautifully combines structure and
+            creativity.
           </p>
           {close}
         </article>
@@ -127,26 +134,45 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/PatrickLake492"
+                target="blank"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a
+                href="https://www.facebook.com/patrick.lake.50?ref=bookmarks"
+                target="blank"
+                className="icon fa-facebook"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/patricklakemusic/"
+                target="blank"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://www.linkedin.com/in/patrick-lake-80733a186/"
+                target="blank"
+                className="icon fa-linkedin"
+              >
+                <span className="label">linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/plake492"
                 className="icon fa-github"
+                target="blank"
               >
                 <span className="label">GitHub</span>
               </a>
