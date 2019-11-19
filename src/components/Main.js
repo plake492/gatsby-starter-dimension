@@ -114,7 +114,7 @@ class Main extends React.Component {
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div> */}
-            <div className="field half">
+            <div className="field">
               <label htmlFor="email">Subject</label>
               <input type="text" name="subject" id="email" />
             </div>
