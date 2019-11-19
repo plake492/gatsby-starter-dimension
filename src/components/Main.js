@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import roy from '../images/roy.png'
+import tft from '../images/tft.png'
 import friendFinder from '../images/friendFinder.png'
 import clicky from '../images/clicky.png'
 import me from '../images/me.jpeg'
@@ -45,7 +45,7 @@ class Main extends React.Component {
           <span className="image main">
             <hr></hr>
             <h3 style={{ textAlign: 'center' }}>Time For Teachers</h3>
-            <img src={roy} alt="" />
+            <img src={tft} alt="" />
           </span>
           <a
             style={{ marginRight: '3%' }}
