@@ -109,14 +109,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
+          <form method="post" action="mailto:plake492@gmail.com">
+            {/* <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
-            </div>
+            </div> */}
             <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <label htmlFor="email">Subject</label>
+              <input type="text" name="subject" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
