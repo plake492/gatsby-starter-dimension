@@ -44,17 +44,17 @@ class Main extends React.Component {
           <a href="https://github.com/plake492/FriendFinder"> Github</a>
           <span className="image main">
             <hr></hr>
-            <h3 style={{ textAlign: 'center' }}> Tiny House Roy</h3>
+            <h3 style={{ textAlign: 'center' }}>Time For Teachers</h3>
             <img src={roy} alt="" />
           </span>
           <a
             style={{ marginRight: '3%' }}
-            href="https://plake492.github.io/tiny-house-roy/"
+            href="http://timeforteachers.us/"
             target="blank"
           >
             Website
           </a>
-          <a href="https://github.com/plake492/tiny-house-roy"> Github</a>
+          <a href="https://github.com/jenross/time-for-teachers"> Github</a>
           <hr></hr>
 
           <span className="image main">
